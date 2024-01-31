@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<title>Solve a Quantum Computing Problem</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<h1>Solve a Quantum Computing Problem</h1>
+
+<form action="/solve" method="POST">
+<label for="problem-parameters">Problem Parameters:</label>
+<textarea name="problem-parameters" id="problem-parameters" rows="10"></textarea>
+
+<label for="algorithm">Algorithm:</label>
+<select name="algorithm" id="algorithm">
+<option value="grover">Grover's Algorithm</option>
+<option value="shor">Shor's Algorithm</option>
+<option value="qaoa">Quantum Approximate Optimization Algorithm</option>
+</select>
+
+<input type="submit" value="Solve" />
+</form>
+</body>
+
+</html>
+
+
